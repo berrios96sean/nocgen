@@ -92,3 +92,5 @@ allclean:
 	rm -f sim.log syn.log par.log sta.log power.*log dsim.log psim.log dump.vcd
 	rm -f ${BASE}.vnet ${BASE}_final.vnet ${BASE}.sdc ${BASE}.sdf ${BASE}.spef ${BASE}.sdf*.X
 	rm -rf .qrc.leflist .qx.cmd .qx.def .routing_guide.rgf .timing_file.tif .simvision
+	rm -rf ./*.v 
+	rm -rf ./*.h

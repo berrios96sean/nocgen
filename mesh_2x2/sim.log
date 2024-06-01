@@ -1,0 +1,1465 @@
+VCD info: dumpfile dump.vcd opened for output.
+*** send (src: 0 dst: 3 vch: 0 len: 4) *** 
+*** send (src: 1 dst: 2 vch: 1 len: 1) *** 
+*** send (src: 2 dst: 0 vch: 0 len: 1) *** 
+*** send (src: 3 dst: 2 vch: 0 len: 2) *** 
+         13 n0 send 100000003 
+         13 n1 send 300000016 
+         13 n2 send 300000008 
+         13 n3 send 10000000e 
+*** send (src: 1 dst: 2 vch: 0 len: 4) *** 
+*** send (src: 2 dst: 3 vch: 0 len: 4) *** 
+         14 n0 send 4000b1000 
+         14 n3 send 2000b1000 
+*** send (src: 3 dst: 2 vch: 0 len: 1) *** 
+         15 n0 send 4000b2000 
+         16 n0 send 2000b3000 
+         16 n1 send 100000006 
+*** send (src: 0 dst: 2 vch: 1 len: 5) *** 
+         17 n1 send 4000e1000 
+         17 n2 send 10000000b 
+                         17 n2(0 0) go thru 300000008 
+                         17 n0(1 0) go thru 100000003 
+                         17 n1(3 1) go thru 300000016 
+                         17 n3(3 0) go thru 10000000e 
+                         18 n3(3 0) go thru 2000b1000 
+                         18 n0(1 0) go thru 4000b1000 
+         18 n1 send 4000e2000 
+         18 n2 send 4000e1000 
+         18 n3 send 30000000e 
+*** send (src: 3 dst: 0 vch: 1 len: 5) *** 
+         19 n0 send 100000012 
+         19 n1 send 2000e3000 
+         19 n2 send 4000e2000 
+                         19 n0(1 0) go thru 4000b2000 
+*** send (src: 1 dst: 3 vch: 1 len: 2) *** 
+                         20 n1(3 0) go thru 100000006 
+                         20 n0(1 0) go thru 2000b3000 
+         20 n0 send 400111000 
+         20 n2 send 2000e3000 
+*** send (src: 2 dst: 0 vch: 1 len: 1) *** 
+         21 n0 send 400112000 
+         21 n3 send 10000001c 
+                 21 n0 recv 300000008 
+                 21 n2 recv 10000000e 
+                         21 n2(1 0) go thru 10000000b 
+                         21 n0(2 1) go thru 300000016 
+                         21 n1(2 0) go thru 100000003 
+                         21 n1(3 0) go thru 4000e1000 
+                         22 n1(3 0) go thru 4000e2000 
+                         22 n1(2 0) go thru 4000b1000 
+                         22 n2(1 0) go thru 4000e1000 
+                 22 n2 recv 2000b1000 
+         22 n0 send 400113000 
+         22 n1 send 100000017 
+         22 n3 send 400131000 
+         23 n0 send 200114000 
+         23 n1 send 200141000 
+         23 n2 send 300000018 
+         23 n3 send 400132000 
+                         23 n2(1 0) go thru 4000e2000 
+                         23 n1(2 0) go thru 4000b2000 
+                         23 n1(3 0) go thru 2000e3000 
+*** send (src: 0 dst: 2 vch: 1 len: 2) *** 
+*** send (src: 1 dst: 0 vch: 0 len: 4) *** 
+*** send (src: 2 dst: 1 vch: 0 len: 2) *** 
+                         24 n3(3 0) go thru 30000000e 
+                         24 n0(2 0) go thru 100000006 
+                         24 n1(2 0) go thru 2000b3000 
+                         24 n2(1 0) go thru 2000e3000 
+         24 n3 send 400133000 
+         25 n3 send 200134000 
+                 25 n2 recv 300000016 
+                 25 n3 recv 100000003 
+                         25 n0(2 0) go thru 4000e1000 
+*** send (src: 3 dst: 1 vch: 0 len: 5) *** 
+                         26 n3(3 1) go thru 10000001c 
+                         26 n0(2 0) go thru 4000e2000 
+                         26 n1(2 1) go thru 100000017 
+                 26 n3 recv 4000b1000 
+         26 n1 send 100000004 
+         26 n2 send 100000009 
+         27 n1 send 400181000 
+         27 n2 send 200181000 
+                 27 n3 recv 4000b2000 
+                         27 n2(0 1) go thru 300000018 
+                         27 n0(2 0) go thru 2000e3000 
+                         27 n1(2 1) go thru 200141000 
+                         27 n3(3 1) go thru 400131000 
+*** send (src: 2 dst: 3 vch: 0 len: 5) *** 
+                         28 n3(3 1) go thru 400132000 
+                 28 n2 recv 100000006 
+                 28 n3 recv 2000b3000 
+         28 n1 send 400182000 
+         28 n3 send 10000000d 
+         29 n1 send 200183000 
+         29 n3 send 4001a1000 
+                 29 n2 recv 4000e1000 
+                         29 n0(2 1) go thru 100000012 
+                         29 n3(3 1) go thru 400133000 
+*** send (src: 1 dst: 0 vch: 0 len: 5) *** 
+                         30 n1(3 0) go thru 100000004 
+                         30 n3(3 1) go thru 200134000 
+                         30 n0(2 1) go thru 400111000 
+                 30 n2 recv 4000e2000 
+                 30 n3 recv 100000017 
+         30 n3 send 4001a2000 
+         31 n3 send 4001a3000 
+                 31 n0 recv 300000018 
+                 31 n2 recv 2000e3000 
+                 31 n3 recv 200141000 
+                         31 n0(2 1) go thru 400112000 
+                         31 n1(3 0) go thru 400181000 
+                         32 n1(3 0) go thru 400182000 
+                         32 n0(2 1) go thru 400113000 
+                         32 n3(0 0) go thru 10000000d 
+         32 n3 send 2001a4000 
+*** send (src: 3 dst: 1 vch: 0 len: 2) *** 
+         33 n0 send 100000012 
+         33 n1 send 100000004 
+                 33 n2 recv 100000012 
+                 33 n3 recv 10000000b 
+                         33 n3(0 0) go thru 4001a1000 
+                         33 n0(2 1) go thru 200114000 
+                         33 n1(3 0) go thru 200183000 
+                         34 n3(0 0) go thru 4001a2000 
+                 34 n0 recv 100000004 
+                 34 n2 recv 400111000 
+                 34 n3 recv 4000e1000 
+         34 n0 send 200181000 
+         34 n1 send 4001e1000 
+*** send (src: 0 dst: 3 vch: 1 len: 3) *** 
+         35 n1 send 4001e2000 
+                 35 n0 recv 400181000 
+                 35 n2 recv 400112000 
+                 35 n3 recv 4000e2000 
+                         35 n3(0 0) go thru 4001a3000 
+                         36 n3(0 0) go thru 2001a4000 
+                 36 n0 recv 400182000 
+                 36 n1 recv 10000000d 
+                 36 n2 recv 400113000 
+                 36 n3 recv 2000e3000 
+         36 n1 send 4001e3000 
+         36 n3 send 10000000d 
+         37 n1 send 2001e4000 
+         37 n3 send 200211000 
+                 37 n0 recv 200183000 
+                 37 n1 recv 4001a1000 
+                 37 n2 recv 200114000 
+*** send (src: 1 dst: 2 vch: 0 len: 1) *** 
+*** send (src: 3 dst: 1 vch: 0 len: 5) *** 
+                         38 n2(1 0) go thru 100000009 
+                 38 n1 recv 4001a2000 
+         39 n2 send 10000000b 
+                 39 n1 recv 4001a3000 
+                 39 n2 recv 30000000e 
+                         39 n2(1 0) go thru 200181000 
+                         39 n0(2 1) go thru 100000012 
+                         39 n1(3 0) go thru 100000004 
+                         40 n1(3 0) go thru 4001e1000 
+                         40 n0(2 1) go thru 200181000 
+                 40 n1 recv 2001a4000 
+         40 n0 send 100000013 
+         40 n2 send 4001c1000 
+         41 n0 send 400231000 
+         41 n2 send 4001c2000 
+                         41 n2(0 1) go thru 10000001c 
+                         41 n1(3 0) go thru 4001e2000 
+                         42 n1(3 0) go thru 4001e3000 
+                         42 n2(0 1) go thru 400131000 
+                         42 n3(0 0) go thru 100000009 
+         42 n0 send 200232000 
+         42 n2 send 4001c3000 
+*** send (src: 0 dst: 1 vch: 1 len: 4) *** 
+         43 n1 send 300000006 
+         43 n2 send 2001c4000 
+                 43 n0 recv 100000004 
+                 43 n2 recv 100000012 
+                         43 n2(0 1) go thru 400132000 
+                         43 n3(0 0) go thru 200181000 
+                         43 n1(3 0) go thru 2001e4000 
+*** send (src: 1 dst: 2 vch: 0 len: 2) *** 
+*** send (src: 2 dst: 0 vch: 1 len: 2) *** 
+                         44 n0(1 1) go thru 100000013 
+                         44 n2(0 1) go thru 400133000 
+                 44 n0 recv 4001e1000 
+                 44 n2 recv 200181000 
+                 45 n0 recv 4001e2000 
+                         45 n2(0 1) go thru 200134000 
+                         45 n0(1 1) go thru 400231000 
+                         45 n2(1 0) go thru 10000000b 
+                         46 n0(1 1) go thru 200232000 
+                         46 n2(1 0) go thru 4001c1000 
+                 46 n0 recv 4001e3000 
+                 46 n1 recv 100000009 
+         46 n0 send 100000011 
+         46 n2 send 100000018 
+         47 n0 send 4002b1000 
+         47 n2 send 2002c1000 
+                 47 n0 recv 2001e4000 
+                 47 n1 recv 200181000 
+                         47 n2(1 0) go thru 4001c2000 
+*** send (src: 2 dst: 3 vch: 0 len: 5) *** 
+                         48 n1(2 1) go thru 100000013 
+                         48 n2(1 0) go thru 4001c3000 
+         48 n0 send 4002b2000 
+         49 n0 send 2002b3000 
+         49 n1 send 100000006 
+                 49 n0 recv 10000001c 
+                 49 n3 recv 10000000b 
+                         49 n3(0 0) go thru 10000000d 
+                         49 n2(1 0) go thru 2001c4000 
+                         49 n1(2 1) go thru 400231000 
+                         49 n1(3 0) go thru 300000006 
+*** send (src: 0 dst: 1 vch: 0 len: 4) *** 
+                         50 n1(2 1) go thru 200232000 
+                         50 n3(0 0) go thru 200211000 
+                 50 n0 recv 400131000 
+                 50 n3 recv 4001c1000 
+         50 n1 send 2002c1000 
+         50 n2 send 10000000b 
+         50 n3 send 10000000d 
+*** send (src: 1 dst: 3 vch: 0 len: 5) *** 
+         51 n2 send 400301000 
+         51 n3 send 400261000 
+                 51 n0 recv 400132000 
+                 51 n3 recv 4001c2000 
+                         52 n0(1 1) go thru 100000011 
+                 52 n0 recv 400133000 
+                 52 n3 recv 4001c3000 
+         52 n0 send 100000001 
+         52 n2 send 400302000 
+         52 n3 send 400262000 
+         53 n0 send 400321000 
+         53 n2 send 400303000 
+         53 n3 send 400263000 
+                 53 n0 recv 200134000 
+                 53 n1 recv 10000000d 
+                 53 n3 recv 2001c4000 
+                         53 n0(1 1) go thru 4002b1000 
+                         53 n0(2 0) go thru 300000006 
+                         54 n0(1 1) go thru 4002b2000 
+                 54 n1 recv 200211000 
+         54 n0 send 400322000 
+         54 n2 send 200304000 
+         54 n3 send 200264000 
+*** send (src: 2 dst: 0 vch: 0 len: 1) *** 
+*** send (src: 3 dst: 2 vch: 1 len: 3) *** 
+         55 n0 send 200323000 
+                 55 n3 recv 100000013 
+                         55 n2(0 1) go thru 100000018 
+                         55 n0(1 1) go thru 2002b3000 
+                         55 n1(3 0) go thru 100000006 
+*** send (src: 0 dst: 3 vch: 0 len: 2) *** 
+                         56 n1(3 0) go thru 2002c1000 
+                         56 n2(0 1) go thru 2002c1000 
+                         56 n3(0 0) go thru 10000000d 
+                 56 n1 recv 100000011 
+                 56 n3 recv 400231000 
+         56 n1 send 100000007 
+         57 n1 send 400331000 
+         57 n3 send 10000001e 
+                 57 n1 recv 4002b1000 
+                 57 n2 recv 300000006 
+                 57 n3 recv 200232000 
+                         57 n3(0 0) go thru 400261000 
+                         57 n0(1 0) go thru 100000001 
+                         58 n0(1 0) go thru 400321000 
+                         58 n2(1 0) go thru 10000000b 
+                         58 n3(0 0) go thru 400262000 
+                 58 n1 recv 4002b2000 
+         58 n1 send 400332000 
+         58 n3 send 400371000 
+         59 n1 send 400333000 
+         59 n3 send 200372000 
+                 59 n0 recv 100000018 
+                 59 n1 recv 2002b3000 
+                         59 n3(0 0) go thru 400263000 
+                         59 n0(1 0) go thru 400322000 
+                         59 n2(1 0) go thru 400301000 
+                         59 n0(2 0) go thru 100000006 
+*** send (src: 3 dst: 1 vch: 0 len: 3) *** 
+                         60 n0(2 0) go thru 2002c1000 
+                         60 n1(2 0) go thru 100000007 
+                         60 n0(1 0) go thru 200323000 
+                         60 n2(1 0) go thru 400302000 
+                         60 n3(0 0) go thru 200264000 
+                 60 n0 recv 2002c1000 
+         60 n0 send 100000003 
+         60 n1 send 200334000 
+*** send (src: 1 dst: 0 vch: 1 len: 4) *** 
+         61 n0 send 200381000 
+                 61 n1 recv 100000001 
+                         61 n2(1 0) go thru 400303000 
+                         61 n1(2 0) go thru 400331000 
+*** send (src: 0 dst: 3 vch: 0 len: 1) *** 
+                         62 n3(3 1) go thru 10000001e 
+                         62 n1(2 0) go thru 400332000 
+                         62 n2(1 0) go thru 200304000 
+                 62 n1 recv 400321000 
+                 62 n3 recv 10000000b 
+         62 n2 send 300000008 
+         62 n3 send 10000000d 
+*** send (src: 2 dst: 0 vch: 1 len: 4) *** 
+         63 n1 send 100000014 
+         63 n3 send 4003c1000 
+                 63 n1 recv 400322000 
+                 63 n2 recv 100000006 
+                 63 n3 recv 400301000 
+                         63 n1(2 0) go thru 400333000 
+                         63 n3(3 1) go thru 400371000 
+                         64 n3(3 1) go thru 200372000 
+                         64 n1(2 0) go thru 200334000 
+                 64 n1 recv 200323000 
+                 64 n2 recv 2002c1000 
+                 64 n3 recv 400302000 
+         64 n1 send 4003d1000 
+         64 n3 send 2003c2000 
+*** send (src: 3 dst: 0 vch: 1 len: 5) *** 
+         65 n1 send 4003d2000 
+         65 n2 send 100000018 
+                 65 n3 recv 400303000 
+                         66 n0(1 0) go thru 100000003 
+                         66 n2(0 0) go thru 300000008 
+                 66 n1 recv 10000000d 
+                 66 n2 recv 10000001e 
+                 66 n3 recv 200304000 
+         66 n1 send 2003d3000 
+         66 n2 send 4003f1000 
+*** send (src: 1 dst: 3 vch: 0 len: 4) *** 
+         67 n0 send 300000003 
+         67 n2 send 4003f2000 
+         67 n3 send 10000001c 
+                 67 n1 recv 400261000 
+                 67 n2 recv 400371000 
+                         67 n0(1 0) go thru 200381000 
+                         67 n1(3 1) go thru 100000014 
+*** send (src: 0 dst: 3 vch: 0 len: 4) *** 
+                         68 n1(3 1) go thru 4003d1000 
+                 68 n1 recv 400262000 
+                 68 n2 recv 200372000 
+                 68 n3 recv 100000007 
+         68 n2 send 2003f3000 
+         68 n3 send 400411000 
+*** send (src: 2 dst: 3 vch: 1 len: 2) *** 
+         69 n1 send 100000007 
+         69 n3 send 400412000 
+                 69 n1 recv 400263000 
+                 69 n3 recv 400331000 
+                         69 n2(0 1) go thru 100000018 
+                         69 n1(3 1) go thru 4003d2000 
+                         70 n1(3 1) go thru 2003d3000 
+                         70 n2(0 1) go thru 4003f1000 
+                 70 n0 recv 300000008 
+                 70 n1 recv 200264000 
+                 70 n3 recv 400332000 
+         70 n1 send 400431000 
+         70 n3 send 400413000 
+         71 n1 send 400432000 
+         71 n3 send 200414000 
+                 71 n3 recv 400333000 
+                         71 n2(0 1) go thru 4003f2000 
+                         71 n3(3 1) go thru 10000001c 
+*** send (src: 3 dst: 2 vch: 0 len: 5) *** 
+                         72 n3(3 1) go thru 400411000 
+                         72 n2(0 1) go thru 2003f3000 
+                 72 n0 recv 100000014 
+                 72 n3 recv 200334000 
+         72 n1 send 200433000 
+         72 n2 send 10000001b 
+*** send (src: 1 dst: 3 vch: 1 len: 2) *** 
+         73 n2 send 200451000 
+                 73 n0 recv 4003d1000 
+                         73 n3(3 1) go thru 400412000 
+*** send (src: 2 dst: 3 vch: 1 len: 3) *** 
+                         74 n3(3 1) go thru 400413000 
+                         74 n1(2 0) go thru 100000003 
+                 74 n0 recv 4003d2000 
+         75 n1 send 100000017 
+                 75 n0 recv 2003d3000 
+                         75 n1(2 0) go thru 200381000 
+                         75 n3(3 1) go thru 200414000 
+                         76 n2(1 1) go thru 10000001b 
+         76 n1 send 200491000 
+*** send (src: 1 dst: 2 vch: 0 len: 3) *** 
+         77 n0 send 100000003 
+         77 n2 send 10000001b 
+                 77 n0 recv 100000018 
+                         77 n3(0 0) go thru 10000000d 
+                         77 n0(1 0) go thru 300000003 
+                         77 n2(1 1) go thru 200451000 
+                         78 n3(0 0) go thru 4003c1000 
+                 78 n0 recv 4003f1000 
+                 78 n3 recv 100000003 
+         78 n0 send 400441000 
+         78 n2 send 4004a1000 
+         79 n0 send 400442000 
+         79 n2 send 2004a2000 
+         79 n3 send 10000000e 
+                 79 n0 recv 4003f2000 
+                 79 n3 recv 200381000 
+                         79 n3(0 0) go thru 2003c2000 
+*** send (src: 2 dst: 1 vch: 0 len: 1) *** 
+                         80 n1(2 1) go thru 100000017 
+                 80 n0 recv 2003f3000 
+         80 n0 send 200443000 
+         80 n3 send 400481000 
+*** send (src: 0 dst: 2 vch: 0 len: 5) *** 
+         81 n3 send 400482000 
+                 81 n1 recv 10000000d 
+                 81 n3 recv 10000001b 
+                         81 n1(2 1) go thru 200491000 
+                 82 n1 recv 4003c1000 
+                 82 n3 recv 200451000 
+         82 n2 send 300000009 
+         82 n3 send 400483000 
+*** send (src: 2 dst: 1 vch: 1 len: 4) *** 
+         83 n3 send 200484000 
+                 83 n1 recv 2003c2000 
+                         83 n2(0 1) go thru 10000001c 
+                         83 n1(2 0) go thru 100000007 
+                         83 n3(3 0) go thru 10000000e 
+*** send (src: 3 dst: 0 vch: 0 len: 4) *** 
+                         84 n3(3 0) go thru 400481000 
+                         84 n1(2 0) go thru 400431000 
+                         84 n2(0 1) go thru 400411000 
+                 84 n3 recv 100000017 
+                 85 n3 recv 200491000 
+                         85 n2(0 1) go thru 400412000 
+                         85 n2(1 1) go thru 10000001b 
+                         85 n1(2 0) go thru 400432000 
+                         85 n3(3 0) go thru 400482000 
+                         86 n3(3 0) go thru 400483000 
+                         86 n1(2 0) go thru 200433000 
+                         86 n2(1 1) go thru 4004a1000 
+                         86 n2(0 1) go thru 400413000 
+         86 n1 send 100000006 
+         87 n1 send 4004d1000 
+         87 n2 send 100000019 
+         87 n3 send 10000000c 
+                 87 n0 recv 10000001c 
+                 87 n3 recv 100000007 
+                         87 n2(0 1) go thru 200414000 
+                         87 n2(1 1) go thru 2004a2000 
+                         87 n3(3 0) go thru 200484000 
+                 88 n0 recv 400411000 
+                 88 n3 recv 400431000 
+         88 n1 send 2004d2000 
+         88 n2 send 400531000 
+         88 n3 send 400541000 
+*** send (src: 1 dst: 2 vch: 0 len: 4) *** 
+         89 n2 send 400532000 
+         89 n3 send 400542000 
+                 89 n0 recv 400412000 
+                 89 n2 recv 10000000e 
+                 89 n3 recv 400432000 
+                         89 n2(1 0) go thru 300000009 
+                         90 n1(3 0) go thru 100000006 
+                 90 n0 recv 400413000 
+                 90 n2 recv 400481000 
+                 90 n3 recv 200433000 
+         90 n2 send 200533000 
+         90 n3 send 200543000 
+*** send (src: 2 dst: 3 vch: 0 len: 2) *** 
+*** send (src: 3 dst: 1 vch: 0 len: 2) *** 
+                 91 n0 recv 200414000 
+                 91 n2 recv 400482000 
+                         91 n1(3 0) go thru 4004d1000 
+                         92 n1(3 0) go thru 2004d2000 
+                         92 n1(2 0) go thru 300000003 
+                 92 n2 recv 400483000 
+                 92 n3 recv 10000001b 
+         92 n1 send 100000006 
+         93 n1 send 400591000 
+         93 n2 send 10000000b 
+                 93 n2 recv 200484000 
+                 93 n3 recv 4004a1000 
+                         94 n0(2 0) go thru 100000006 
+                         94 n0(1 0) go thru 100000003 
+                 94 n3 recv 2004a2000 
+         94 n1 send 400592000 
+         94 n2 send 2005b1000 
+*** send (src: 2 dst: 1 vch: 1 len: 4) *** 
+         95 n1 send 200593000 
+                         95 n0(1 0) go thru 400441000 
+                         95 n0(2 0) go thru 4004d1000 
+                         95 n3(3 0) go thru 10000000c 
+*** send (src: 1 dst: 2 vch: 0 len: 3) *** 
+                         96 n3(3 0) go thru 400541000 
+                         96 n0(2 0) go thru 2004d2000 
+                         96 n0(1 0) go thru 400442000 
+                         96 n3(0 0) go thru 300000009 
+                 96 n3 recv 300000003 
+         97 n0 send 100000002 
+                         97 n0(1 0) go thru 200443000 
+                         97 n3(3 0) go thru 400542000 
+                         98 n1(3 0) go thru 100000006 
+                         98 n3(3 0) go thru 200543000 
+                         98 n1(2 0) go thru 100000003 
+                         98 n2(1 0) go thru 10000000b 
+                 98 n2 recv 100000006 
+         98 n0 send 400511000 
+         98 n3 send 10000000d 
+         99 n0 send 400512000 
+         99 n3 send 2005b1000 
+                 99 n2 recv 4004d1000 
+                         99 n2(0 0) go thru 10000000c 
+                         99 n2(1 0) go thru 2005b1000 
+                         99 n1(2 0) go thru 400441000 
+                         99 n1(3 0) go thru 400591000 
+*** send (src: 3 dst: 2 vch: 0 len: 4) *** 
+                        100 n1(3 0) go thru 400592000 
+                        100 n1(2 0) go thru 400442000 
+                        100 n2(0 0) go thru 400541000 
+                100 n1 recv 300000009 
+                100 n2 recv 2004d2000 
+        100 n0 send 400513000 
+        101 n0 send 200514000 
+        101 n1 send 100000006 
+                        101 n2(0 0) go thru 400542000 
+                        101 n2(1 1) go thru 100000019 
+                        101 n1(2 0) go thru 200443000 
+                        101 n1(3 0) go thru 200593000 
+*** send (src: 0 dst: 3 vch: 0 len: 4) *** 
+                        102 n0(2 0) go thru 100000006 
+                        102 n2(1 1) go thru 400531000 
+                        102 n2(0 0) go thru 200543000 
+                        102 n3(0 0) go thru 10000000d 
+                102 n3 recv 100000003 
+        102 n1 send 400601000 
+        103 n1 send 200602000 
+        103 n3 send 10000000e 
+                103 n0 recv 10000000c 
+                103 n3 recv 400441000 
+                        103 n3(0 0) go thru 2005b1000 
+                        103 n2(1 1) go thru 400532000 
+                        103 n0(2 0) go thru 400591000 
+*** send (src: 1 dst: 2 vch: 1 len: 3) *** 
+                        104 n0(2 0) go thru 400592000 
+                        104 n2(1 1) go thru 200533000 
+                104 n0 recv 400541000 
+                104 n3 recv 400442000 
+        104 n2 send 100000019 
+        104 n3 send 400641000 
+        105 n2 send 4005f1000 
+        105 n3 send 400642000 
+                105 n0 recv 400542000 
+                105 n3 recv 200443000 
+                        105 n0(2 0) go thru 200593000 
+                106 n0 recv 200543000 
+                106 n1 recv 10000000d 
+                106 n2 recv 100000006 
+        106 n1 send 100000016 
+        106 n2 send 4005f2000 
+        106 n3 send 200643000 
+*** send (src: 3 dst: 1 vch: 1 len: 3) *** 
+        107 n1 send 400681000 
+        107 n2 send 2005f3000 
+                107 n1 recv 2005b1000 
+                107 n2 recv 400591000 
+                107 n3 recv 10000000b 
+                        107 n1(3 0) go thru 100000006 
+                        107 n3(3 0) go thru 10000000e 
+*** send (src: 2 dst: 0 vch: 1 len: 3) *** 
+                        108 n1(3 0) go thru 400601000 
+                        108 n3(3 0) go thru 400641000 
+                108 n2 recv 400592000 
+                108 n3 recv 2005b1000 
+        108 n1 send 200682000 
+*** send (src: 1 dst: 2 vch: 0 len: 1) *** 
+        109 n3 send 10000001d 
+                109 n2 recv 200593000 
+                        109 n1(3 0) go thru 200602000 
+                        109 n3(3 0) go thru 400642000 
+                        110 n3(3 0) go thru 200643000 
+                        110 n3(0 1) go thru 100000019 
+        110 n3 send 4006b1000 
+        111 n1 send 300000006 
+        111 n3 send 2006b2000 
+                111 n2 recv 10000000e 
+                        111 n3(0 1) go thru 400531000 
+                        111 n0(2 0) go thru 100000006 
+                        111 n1(3 1) go thru 100000016 
+*** send (src: 1 dst: 3 vch: 0 len: 2) *** 
+*** send (src: 3 dst: 2 vch: 1 len: 3) *** 
+                        112 n1(3 1) go thru 400681000 
+                        112 n0(2 0) go thru 400601000 
+                        112 n3(0 1) go thru 400532000 
+                112 n2 recv 400641000 
+                113 n2 recv 400642000 
+                        113 n3(0 1) go thru 200533000 
+                        113 n0(2 0) go thru 200602000 
+                        113 n1(3 1) go thru 200682000 
+                114 n1 recv 100000019 
+                114 n2 recv 200643000 
+        115 n1 send 100000007 
+                115 n1 recv 400531000 
+                        115 n0(2 1) go thru 100000016 
+                        115 n1(3 0) go thru 300000006 
+                        116 n0(2 1) go thru 400681000 
+                        116 n2(1 1) go thru 100000019 
+                116 n1 recv 400532000 
+                116 n2 recv 100000006 
+        116 n1 send 200701000 
+*** send (src: 1 dst: 2 vch: 0 len: 2) *** 
+                117 n1 recv 200533000 
+                117 n2 recv 400601000 
+                        117 n2(1 1) go thru 4005f1000 
+                        117 n0(2 1) go thru 200682000 
+                        118 n2(1 1) go thru 4005f2000 
+                118 n2 recv 200602000 
+        119 n2 send 100000018 
+                        119 n3(0 1) go thru 10000001d 
+                        119 n2(1 1) go thru 2005f3000 
+                        119 n1(2 0) go thru 100000007 
+                        120 n0(2 0) go thru 100000002 
+                        120 n1(2 0) go thru 200701000 
+                        120 n3(0 1) go thru 4006b1000 
+                120 n2 recv 100000016 
+        120 n1 send 100000006 
+        120 n2 send 4006c1000 
+        121 n1 send 200751000 
+        121 n2 send 2006c2000 
+        121 n3 send 10000001e 
+                121 n2 recv 400681000 
+                        121 n3(0 1) go thru 2006b2000 
+                        121 n0(2 0) go thru 400511000 
+*** send (src: 1 dst: 0 vch: 1 len: 5) *** 
+*** send (src: 2 dst: 1 vch: 1 len: 2) *** 
+                        122 n0(2 0) go thru 400512000 
+                122 n2 recv 200682000 
+        122 n3 send 400701000 
+        123 n3 send 200702000 
+                123 n1 recv 10000001d 
+                123 n3 recv 100000007 
+                        123 n2(0 1) go thru 100000018 
+                        123 n0(2 0) go thru 400513000 
+*** send (src: 3 dst: 0 vch: 1 len: 3) *** 
+                        124 n0(2 0) go thru 200514000 
+                        124 n2(0 1) go thru 4006c1000 
+                124 n1 recv 4006b1000 
+                124 n2 recv 100000002 
+                124 n3 recv 200701000 
+        124 n0 send 100000003 
+        124 n1 send 100000014 
+        125 n0 send 400661000 
+        125 n1 send 4007a1000 
+        125 n2 send 100000019 
+                125 n1 recv 2006b2000 
+                125 n2 recv 400511000 
+                        125 n2(0 1) go thru 2006c2000 
+                        125 n3(3 1) go thru 10000001e 
+                        126 n3(3 1) go thru 400701000 
+                126 n2 recv 400512000 
+        126 n0 send 400662000 
+        126 n1 send 4007a2000 
+        126 n2 send 2007a1000 
+*** send (src: 2 dst: 1 vch: 0 len: 1) *** 
+        127 n0 send 200663000 
+        127 n1 send 4007a3000 
+        127 n3 send 10000001c 
+                127 n0 recv 100000018 
+                127 n2 recv 400513000 
+                        127 n3(0 1) go thru 100000019 
+                        127 n3(3 1) go thru 200702000 
+*** send (src: 0 dst: 3 vch: 1 len: 4) *** 
+                        128 n0(1 0) go thru 100000003 
+                        128 n3(0 1) go thru 4005f1000 
+                128 n0 recv 4006c1000 
+                128 n2 recv 200514000 
+        128 n1 send 2007a4000 
+        128 n3 send 4007c1000 
+*** send (src: 1 dst: 0 vch: 1 len: 1) *** 
+        129 n2 send 300000009 
+        129 n3 send 2007c2000 
+                129 n0 recv 2006c2000 
+                        129 n3(0 1) go thru 4005f2000 
+                        129 n0(1 0) go thru 400661000 
+*** send (src: 2 dst: 1 vch: 0 len: 5) *** 
+*** send (src: 3 dst: 0 vch: 0 len: 4) *** 
+                        130 n0(2 0) go thru 300000006 
+                        130 n0(1 0) go thru 400662000 
+                        130 n3(0 1) go thru 2005f3000 
+                130 n2 recv 10000001e 
+        130 n0 send 100000013 
+        131 n0 send 400801000 
+                131 n1 recv 100000019 
+                131 n2 recv 400701000 
+                        131 n0(1 0) go thru 200663000 
+                        132 n1(3 0) go thru 100000006 
+                        132 n1(2 0) go thru 100000003 
+                132 n1 recv 4005f1000 
+                132 n2 recv 200702000 
+        132 n0 send 400802000 
+        132 n3 send 10000000c 
+        133 n0 send 200803000 
+        133 n2 send 100000009 
+        133 n3 send 400821000 
+                133 n1 recv 4005f2000 
+                        133 n2(1 0) go thru 300000009 
+                        133 n1(2 0) go thru 400661000 
+                        133 n1(3 0) go thru 200751000 
+*** send (src: 0 dst: 1 vch: 0 len: 3) *** 
+                        134 n1(2 0) go thru 400662000 
+                        134 n0(1 1) go thru 100000013 
+                134 n1 recv 2005f3000 
+                134 n2 recv 300000006 
+        134 n2 send 400821000 
+        134 n3 send 400822000 
+        135 n2 send 400822000 
+        135 n3 send 200823000 
+                        135 n0(1 1) go thru 400801000 
+                        135 n2(1 1) go thru 100000019 
+                        135 n1(2 0) go thru 200663000 
+                        135 n1(3 1) go thru 100000014 
+                        135 n3(3 1) go thru 10000001c 
+*** send (src: 3 dst: 0 vch: 0 len: 5) *** 
+                        136 n1(3 1) go thru 4007a1000 
+                        136 n3(3 1) go thru 4007c1000 
+                        136 n0(2 0) go thru 100000006 
+                        136 n0(1 1) go thru 400802000 
+                        136 n2(1 1) go thru 2007a1000 
+                136 n3 recv 100000003 
+        136 n0 send 100000001 
+        136 n2 send 400823000 
+        137 n0 send 400861000 
+        137 n2 send 200824000 
+                137 n3 recv 400661000 
+                        137 n3(0 0) go thru 300000009 
+                        137 n0(1 1) go thru 200803000 
+                        137 n0(2 0) go thru 200751000 
+                        137 n1(3 1) go thru 4007a2000 
+                        137 n3(3 1) go thru 2007c2000 
+*** send (src: 2 dst: 3 vch: 1 len: 4) *** 
+                        138 n1(3 1) go thru 4007a3000 
+                        138 n1(2 1) go thru 100000013 
+                138 n3 recv 400662000 
+        138 n0 send 200862000 
+*** send (src: 0 dst: 2 vch: 1 len: 5) *** 
+        139 n1 send 300000014 
+                139 n0 recv 100000014 
+                139 n3 recv 200663000 
+                        139 n2(0 1) go thru 10000001c 
+                        139 n3(0 1) go thru 100000019 
+                        139 n2(1 0) go thru 100000009 
+                        139 n1(2 1) go thru 400801000 
+                        139 n1(3 1) go thru 2007a4000 
+                        139 n3(3 0) go thru 10000000c 
+*** send (src: 1 dst: 3 vch: 1 len: 4) *** 
+                        140 n3(3 0) go thru 400821000 
+                        140 n1(2 1) go thru 400802000 
+                        140 n0(1 0) go thru 100000001 
+                        140 n2(1 0) go thru 400821000 
+                        140 n2(0 1) go thru 4007c1000 
+                        140 n3(0 1) go thru 2007a1000 
+                140 n0 recv 4007a1000 
+                140 n2 recv 100000006 
+        140 n2 send 10000001b 
+        141 n0 send 100000012 
+        141 n2 send 4008a1000 
+                141 n0 recv 4007a2000 
+                141 n1 recv 300000009 
+                141 n2 recv 200751000 
+                        141 n2(0 1) go thru 2007c2000 
+                        141 n0(1 0) go thru 400861000 
+                        141 n2(1 0) go thru 400822000 
+                        141 n1(2 1) go thru 200803000 
+                        141 n3(3 0) go thru 400822000 
+                        142 n3(3 0) go thru 200823000 
+                        142 n0(1 0) go thru 200862000 
+                        142 n2(1 0) go thru 400823000 
+                142 n0 recv 4007a3000 
+                142 n3 recv 100000013 
+        142 n0 send 4008b1000 
+        142 n2 send 4008a2000 
+        142 n3 send 10000000c 
+        143 n0 send 4008b2000 
+        143 n2 send 2008a3000 
+        143 n3 send 400881000 
+                143 n0 recv 2007a4000 
+                143 n1 recv 100000019 
+                143 n3 recv 400801000 
+                        143 n2(0 0) go thru 10000000c 
+                        143 n3(0 0) go thru 100000009 
+                        143 n2(1 0) go thru 200824000 
+*** send (src: 2 dst: 0 vch: 0 len: 5) *** 
+                        144 n2(0 0) go thru 400821000 
+                        144 n3(0 0) go thru 400821000 
+                144 n1 recv 2007a1000 
+                144 n3 recv 400802000 
+        144 n0 send 4008b3000 
+        144 n3 send 400882000 
+        145 n0 send 2008b4000 
+        145 n1 send 100000017 
+        145 n3 send 400883000 
+                145 n0 recv 10000001c 
+                145 n3 recv 200803000 
+                        145 n2(0 0) go thru 400822000 
+                        145 n3(0 0) go thru 400822000 
+                        145 n2(1 1) go thru 10000001b 
+                        145 n0(2 1) go thru 100000012 
+                        145 n1(3 1) go thru 300000014 
+*** send (src: 0 dst: 1 vch: 0 len: 3) *** 
+                        146 n0(2 1) go thru 4008b1000 
+                        146 n2(1 1) go thru 4008a1000 
+                        146 n2(0 0) go thru 200823000 
+                        146 n3(0 0) go thru 400823000 
+                146 n0 recv 4007c1000 
+                146 n1 recv 100000001 
+        146 n1 send 4008c1000 
+        146 n2 send 100000008 
+        146 n3 send 200884000 
+*** send (src: 3 dst: 0 vch: 0 len: 2) *** 
+        147 n1 send 4008c2000 
+        147 n2 send 400901000 
+                147 n0 recv 2007c2000 
+                147 n1 recv 400861000 
+                        147 n3(0 0) go thru 200824000 
+                        147 n2(1 1) go thru 4008a2000 
+                        147 n0(2 1) go thru 4008b2000 
+                        148 n3(3 0) go thru 10000000c 
+                        148 n0(2 1) go thru 4008b3000 
+                        148 n2(1 1) go thru 2008a3000 
+                148 n1 recv 200862000 
+        148 n0 send 100000001 
+        148 n1 send 2008c3000 
+        148 n2 send 400902000 
+*** send (src: 1 dst: 2 vch: 1 len: 2) *** 
+        149 n0 send 400921000 
+        149 n2 send 400903000 
+                149 n0 recv 10000000c 
+                149 n2 recv 100000012 
+                149 n3 recv 10000001b 
+                        149 n0(2 1) go thru 2008b4000 
+                        149 n1(2 1) go thru 100000017 
+                        149 n3(3 0) go thru 400881000 
+                        150 n3(3 0) go thru 400882000 
+                        150 n1(2 1) go thru 4008c1000 
+                150 n0 recv 400821000 
+                150 n1 recv 100000009 
+                150 n2 recv 4008b1000 
+                150 n3 recv 4008a1000 
+        150 n0 send 200922000 
+        150 n2 send 200904000 
+*** send (src: 0 dst: 2 vch: 1 len: 5) *** 
+*** send (src: 2 dst: 3 vch: 0 len: 5) *** 
+                151 n0 recv 400822000 
+                151 n1 recv 400821000 
+                151 n2 recv 4008b2000 
+                151 n3 recv 4008a2000 
+                        151 n1(2 1) go thru 4008c2000 
+                        151 n3(3 0) go thru 400883000 
+                        152 n3(3 0) go thru 200884000 
+                        152 n1(2 1) go thru 2008c3000 
+                        152 n0(1 0) go thru 100000001 
+                152 n0 recv 200823000 
+                152 n1 recv 400822000 
+                152 n2 recv 4008b3000 
+                152 n3 recv 2008a3000 
+        152 n1 send 100000016 
+        152 n3 send 10000000c 
+        153 n0 send 100000012 
+        153 n1 send 200951000 
+        153 n3 send 200931000 
+                153 n1 recv 400823000 
+                153 n2 recv 2008b4000 
+                        153 n0(1 0) go thru 400921000 
+*** send (src: 1 dst: 0 vch: 0 len: 4) *** 
+*** send (src: 3 dst: 0 vch: 1 len: 3) *** 
+                        154 n0(1 0) go thru 200922000 
+                        154 n2(0 0) go thru 10000000c 
+                154 n0 recv 300000014 
+                154 n1 recv 200824000 
+                154 n3 recv 100000017 
+        154 n0 send 400971000 
+        155 n0 send 400972000 
+                155 n3 recv 4008c1000 
+                        155 n2(0 0) go thru 400881000 
+                        156 n1(3 1) go thru 100000016 
+                        156 n2(0 0) go thru 400882000 
+                156 n1 recv 100000001 
+                156 n3 recv 4008c2000 
+        156 n0 send 400973000 
+        156 n1 send 100000004 
+        156 n3 send 10000001c 
+        157 n0 send 200974000 
+        157 n1 send 4009a1000 
+        157 n3 send 4009a1000 
+                157 n1 recv 400921000 
+                157 n3 recv 2008c3000 
+                        157 n2(0 0) go thru 400883000 
+                        157 n0(2 1) go thru 100000012 
+                        157 n1(3 1) go thru 200951000 
+*** send (src: 0 dst: 1 vch: 1 len: 3) *** 
+                        158 n0(2 1) go thru 400971000 
+                        158 n2(0 0) go thru 200884000 
+                158 n0 recv 10000000c 
+                158 n1 recv 200922000 
+        158 n1 send 4009a2000 
+        158 n3 send 2009a2000 
+*** send (src: 3 dst: 2 vch: 0 len: 5) *** 
+        159 n1 send 2009a3000 
+                159 n0 recv 400881000 
+                        159 n0(2 1) go thru 400972000 
+*** send (src: 1 dst: 3 vch: 0 len: 3) *** 
+                        160 n1(3 0) go thru 100000004 
+                        160 n3(3 0) go thru 10000000c 
+                        160 n0(2 1) go thru 400973000 
+                160 n0 recv 400882000 
+        161 n0 send 100000011 
+        161 n3 send 10000000e 
+                161 n0 recv 400883000 
+                161 n2 recv 100000012 
+                        161 n0(2 1) go thru 200974000 
+                        161 n1(3 0) go thru 4009a1000 
+                        161 n3(3 0) go thru 200931000 
+                        162 n1(3 0) go thru 4009a2000 
+                162 n0 recv 200884000 
+                162 n2 recv 400971000 
+        162 n0 send 4009e1000 
+        162 n3 send 4009f1000 
+        163 n0 send 2009e2000 
+        163 n1 send 100000007 
+        163 n3 send 4009f2000 
+                163 n2 recv 400972000 
+                        163 n1(3 0) go thru 2009a3000 
+                        163 n3(3 1) go thru 10000001c 
+*** send (src: 0 dst: 1 vch: 0 len: 2) *** 
+                        164 n3(3 1) go thru 4009a1000 
+                        164 n2(0 0) go thru 10000000c 
+                164 n0 recv 100000004 
+                164 n2 recv 400973000 
+        164 n1 send 400a01000 
+        164 n3 send 4009f3000 
+        165 n1 send 200a02000 
+        165 n3 send 2009f4000 
+                165 n0 recv 4009a1000 
+                165 n2 recv 200974000 
+                        165 n2(0 0) go thru 200931000 
+                        165 n0(1 1) go thru 100000011 
+                        165 n3(3 1) go thru 2009a2000 
+*** send (src: 1 dst: 3 vch: 0 len: 1) *** 
+*** send (src: 3 dst: 0 vch: 0 len: 5) *** 
+                        166 n0(1 1) go thru 4009e1000 
+                166 n0 recv 4009a2000 
+        166 n0 send 100000001 
+        167 n0 send 200a41000 
+                167 n0 recv 2009a3000 
+                        167 n2(0 1) go thru 10000001c 
+                        167 n0(1 1) go thru 2009e2000 
+                        167 n1(2 0) go thru 100000007 
+                        167 n3(3 0) go thru 10000000e 
+*** send (src: 0 dst: 3 vch: 0 len: 2) *** 
+                        168 n3(3 0) go thru 4009f1000 
+                        168 n1(2 0) go thru 400a01000 
+                        168 n2(0 1) go thru 4009a1000 
+        169 n1 send 300000007 
+                169 n0 recv 10000000c 
+                169 n1 recv 100000011 
+                        169 n2(0 1) go thru 2009a2000 
+                        169 n0(2 1) go thru 100000016 
+                        169 n1(2 0) go thru 200a02000 
+                        169 n3(3 0) go thru 4009f2000 
+*** send (src: 1 dst: 0 vch: 1 len: 2) *** 
+                        170 n3(3 0) go thru 4009f3000 
+                        170 n0(2 1) go thru 200951000 
+                        170 n0(1 0) go thru 100000001 
+                170 n0 recv 200931000 
+                170 n1 recv 4009e1000 
+        171 n0 send 100000003 
+        171 n3 send 10000000c 
+                171 n1 recv 2009e2000 
+                171 n2 recv 10000000e 
+                171 n3 recv 100000007 
+                        171 n0(1 0) go thru 200a41000 
+                        171 n3(3 0) go thru 2009f4000 
+                172 n0 recv 10000001c 
+                172 n2 recv 4009f1000 
+                172 n3 recv 400a01000 
+        172 n0 send 200a81000 
+        172 n1 send 100000014 
+        172 n3 send 400a61000 
+*** send (src: 0 dst: 3 vch: 1 len: 1) *** 
+        173 n1 send 200aa1000 
+        173 n3 send 400a62000 
+                173 n0 recv 4009a1000 
+                173 n2 recv 4009f2000 
+                173 n3 recv 200a02000 
+                        173 n2(0 0) go thru 100000008 
+*** send (src: 1 dst: 2 vch: 0 len: 1) *** 
+                        174 n2(0 0) go thru 400901000 
+                174 n0 recv 2009a2000 
+                174 n1 recv 100000001 
+                174 n2 recv 4009f3000 
+        174 n3 send 400a63000 
+        175 n0 send 300000013 
+        175 n3 send 200a64000 
+                175 n1 recv 200a41000 
+                175 n2 recv 2009f4000 
+                        175 n2(0 0) go thru 400902000 
+                        175 n1(2 0) go thru 300000007 
+*** send (src: 0 dst: 3 vch: 0 len: 5) *** 
+*** send (src: 3 dst: 1 vch: 0 len: 2) *** 
+                        176 n2(0 0) go thru 400903000 
+        176 n1 send 300000006 
+*** send (src: 1 dst: 0 vch: 1 len: 4) *** 
+        177 n2 send 10000000b 
+                177 n0 recv 100000008 
+                177 n2 recv 100000016 
+                        177 n2(0 0) go thru 200904000 
+                        177 n0(1 0) go thru 100000003 
+                        177 n1(3 1) go thru 100000014 
+                        177 n3(3 0) go thru 10000000c 
+                        178 n1(3 1) go thru 200aa1000 
+                        178 n3(3 0) go thru 400a61000 
+                        178 n0(1 0) go thru 200a81000 
+                178 n0 recv 400901000 
+                178 n2 recv 200951000 
+        178 n0 send 100000003 
+        178 n2 send 400971000 
+        179 n0 send 400b01000 
+        179 n1 send 100000014 
+        179 n2 send 400972000 
+                179 n0 recv 400902000 
+                179 n3 recv 300000007 
+                        179 n3(3 0) go thru 400a62000 
+                        180 n1(3 0) go thru 300000006 
+                        180 n3(3 0) go thru 400a63000 
+                        180 n0(1 1) go thru 300000013 
+                180 n0 recv 400903000 
+        180 n0 send 400b02000 
+        180 n1 send 400b11000 
+        180 n2 send 400973000 
+        181 n0 send 400b03000 
+        181 n1 send 400b12000 
+        181 n2 send 200974000 
+        181 n3 send 10000000d 
+                181 n0 recv 200904000 
+                        181 n2(1 0) go thru 10000000b 
+                        181 n1(2 0) go thru 100000003 
+                        181 n3(3 0) go thru 200a64000 
+*** send (src: 2 dst: 1 vch: 0 len: 4) *** 
+                        182 n1(2 0) go thru 200a81000 
+                        182 n2(1 0) go thru 400971000 
+        182 n0 send 200b04000 
+        182 n1 send 200b13000 
+        182 n3 send 200b01000 
+*** send (src: 0 dst: 1 vch: 1 len: 5) *** 
+*** send (src: 1 dst: 2 vch: 0 len: 5) *** 
+*** send (src: 3 dst: 1 vch: 1 len: 1) *** 
+                183 n0 recv 100000014 
+                        183 n2(0 0) go thru 10000000c 
+                        183 n2(1 0) go thru 400972000 
+                        184 n1(2 1) go thru 300000013 
+                        184 n0(1 0) go thru 100000003 
+                        184 n2(1 0) go thru 400973000 
+                        184 n2(0 0) go thru 400a61000 
+                184 n0 recv 200aa1000 
+        185 n0 send 100000011 
+        185 n1 send 100000006 
+        185 n2 send 100000009 
+        185 n3 send 30000001d 
+                185 n3 recv 100000003 
+                        185 n2(0 0) go thru 400a62000 
+                        185 n3(0 0) go thru 10000000d 
+                        185 n0(1 0) go thru 400b01000 
+                        185 n2(1 0) go thru 200974000 
+*** send (src: 3 dst: 1 vch: 1 len: 1) *** 
+                        186 n0(2 0) go thru 300000006 
+                        186 n0(1 0) go thru 400b02000 
+                        186 n2(0 0) go thru 400a63000 
+                        186 n3(0 0) go thru 200b01000 
+                186 n3 recv 200a81000 
+        186 n0 send 400b71000 
+        186 n1 send 400b71000 
+        186 n2 send 400b61000 
+        187 n0 send 400b72000 
+        187 n1 send 400b72000 
+        187 n2 send 400b62000 
+                187 n0 recv 10000000c 
+                        187 n2(0 0) go thru 200a64000 
+                        187 n0(1 0) go thru 400b03000 
+                        187 n1(3 1) go thru 100000014 
+                        188 n1(3 1) go thru 400b11000 
+                        188 n1(2 0) go thru 100000003 
+                        188 n0(1 0) go thru 200b04000 
+                188 n0 recv 400a61000 
+                188 n3 recv 300000013 
+        188 n0 send 400b73000 
+        188 n1 send 400b73000 
+        188 n2 send 200b63000 
+*** send (src: 2 dst: 3 vch: 0 len: 2) *** 
+        189 n0 send 200b74000 
+        189 n1 send 200b74000 
+        189 n3 send 30000001d 
+                189 n0 recv 400a62000 
+                189 n1 recv 10000000d 
+                        189 n3(0 1) go thru 30000001d 
+                        189 n1(2 0) go thru 400b01000 
+                        189 n1(3 1) go thru 400b12000 
+*** send (src: 0 dst: 3 vch: 1 len: 4) *** 
+*** send (src: 1 dst: 0 vch: 0 len: 3) *** 
+*** send (src: 3 dst: 0 vch: 1 len: 4) *** 
+                        190 n1(3 1) go thru 200b13000 
+                        190 n1(2 0) go thru 400b02000 
+                        190 n0(1 1) go thru 100000011 
+                190 n0 recv 400a63000 
+                190 n1 recv 200b01000 
+                190 n2 recv 300000006 
+                190 n3 recv 10000000b 
+                191 n0 recv 200a64000 
+                191 n3 recv 400971000 
+                        191 n0(1 1) go thru 400b71000 
+                        191 n1(2 0) go thru 400b03000 
+                        192 n1(3 0) go thru 100000006 
+                        192 n1(2 0) go thru 200b04000 
+                        192 n0(1 1) go thru 400b72000 
+                192 n3 recv 400972000 
+                193 n0 recv 100000014 
+                193 n1 recv 30000001d 
+                193 n3 recv 400973000 
+                        193 n0(1 1) go thru 400b73000 
+                        193 n1(3 0) go thru 400b71000 
+                        194 n1(3 0) go thru 400b72000 
+                        194 n0(1 1) go thru 200b74000 
+                194 n0 recv 400b11000 
+                194 n3 recv 200974000 
+        194 n0 send 100000013 
+        195 n0 send 400be1000 
+        195 n3 send 10000001c 
+                195 n0 recv 400b12000 
+                195 n1 recv 100000011 
+                        195 n3(0 1) go thru 30000001d 
+                        195 n1(3 0) go thru 400b73000 
+                        196 n1(3 0) go thru 200b74000 
+                196 n0 recv 200b13000 
+                196 n1 recv 400b71000 
+                196 n3 recv 100000003 
+        196 n0 send 400be2000 
+        196 n1 send 100000004 
+        196 n3 send 400be1000 
+        197 n0 send 200be3000 
+        197 n1 send 400be1000 
+        197 n3 send 400be2000 
+                197 n1 recv 400b72000 
+                197 n3 recv 400b01000 
+                        197 n2(1 0) go thru 100000009 
+*** send (src: 0 dst: 1 vch: 0 len: 5) *** 
+                        198 n0(2 0) go thru 100000006 
+                        198 n2(1 0) go thru 400b61000 
+                198 n1 recv 400b73000 
+                198 n3 recv 400b02000 
+        198 n1 send 200be2000 
+        198 n3 send 200be3000 
+*** send (src: 1 dst: 0 vch: 0 len: 4) *** 
+*** send (src: 3 dst: 1 vch: 1 len: 5) *** 
+                199 n1 recv 200b74000 
+                199 n3 recv 400b03000 
+                        199 n2(1 0) go thru 400b62000 
+                        199 n0(2 0) go thru 400b71000 
+                        199 n3(3 1) go thru 10000001c 
+                        200 n3(3 1) go thru 400be1000 
+                        200 n0(2 0) go thru 400b72000 
+                        200 n2(1 0) go thru 200b63000 
+                200 n3 recv 200b04000 
+        200 n0 send 100000001 
+        200 n2 send 10000000b 
+        201 n0 send 400c61000 
+        201 n2 send 200bd1000 
+                201 n1 recv 30000001d 
+                        201 n3(0 0) go thru 100000009 
+                        201 n0(2 0) go thru 400b73000 
+                        201 n3(3 1) go thru 400be2000 
+*** send (src: 2 dst: 0 vch: 1 len: 3) *** 
+                        202 n3(3 1) go thru 200be3000 
+                        202 n0(2 0) go thru 200b74000 
+                        202 n0(1 1) go thru 100000013 
+                        202 n3(0 0) go thru 400b61000 
+                202 n2 recv 100000006 
+        202 n0 send 400c62000 
+        202 n3 send 10000001d 
+        203 n0 send 400c63000 
+        203 n3 send 400c71000 
+                203 n2 recv 400b71000 
+                        203 n2(0 1) go thru 10000001c 
+                        203 n3(0 0) go thru 400b62000 
+                        203 n0(1 1) go thru 400be1000 
+                        204 n1(3 0) go thru 100000004 
+                        204 n0(1 1) go thru 400be2000 
+                        204 n2(0 1) go thru 400be1000 
+                        204 n3(0 0) go thru 200b63000 
+                204 n2 recv 400b72000 
+        204 n0 send 200c64000 
+        204 n2 send 100000018 
+        204 n3 send 400c72000 
+*** send (src: 0 dst: 3 vch: 1 len: 2) *** 
+        205 n2 send 400ca1000 
+        205 n3 send 400c73000 
+                205 n1 recv 100000009 
+                205 n2 recv 400b73000 
+                        205 n2(0 1) go thru 400be2000 
+                        205 n0(1 1) go thru 200be3000 
+                        205 n1(3 0) go thru 400be1000 
+                        206 n1(3 0) go thru 200be2000 
+                        206 n1(2 1) go thru 100000013 
+                        206 n2(1 0) go thru 10000000b 
+                        206 n2(0 1) go thru 200be3000 
+                        206 n3(0 1) go thru 10000001d 
+                206 n1 recv 400b61000 
+                206 n2 recv 200b74000 
+        206 n1 send 100000004 
+        206 n2 send 200ca2000 
+        206 n3 send 200c74000 
+*** send (src: 2 dst: 3 vch: 1 len: 1) *** 
+*** send (src: 3 dst: 1 vch: 0 len: 1) *** 
+        207 n0 send 100000013 
+        207 n1 send 400c71000 
+                207 n0 recv 10000001c 
+                207 n1 recv 400b62000 
+                        207 n3(0 1) go thru 400c71000 
+                        207 n0(1 0) go thru 100000001 
+                        207 n2(1 0) go thru 200bd1000 
+                        207 n1(2 1) go thru 400be1000 
+                        208 n1(2 1) go thru 400be2000 
+                        208 n0(1 0) go thru 400c61000 
+                        208 n3(0 1) go thru 400c72000 
+                208 n0 recv 400be1000 
+                208 n1 recv 200b63000 
+        208 n0 send 200cd1000 
+        208 n1 send 400c72000 
+*** send (src: 0 dst: 3 vch: 0 len: 2) *** 
+        209 n1 send 200c73000 
+        209 n3 send 30000000d 
+                209 n0 recv 400be2000 
+                        209 n3(0 1) go thru 400c73000 
+                        209 n0(1 0) go thru 400c62000 
+                        209 n1(2 1) go thru 200be3000 
+*** send (src: 1 dst: 0 vch: 0 len: 2) *** 
+*** send (src: 3 dst: 0 vch: 0 len: 5) *** 
+                        210 n0(1 0) go thru 400c63000 
+                        210 n3(0 1) go thru 200c74000 
+                210 n0 recv 200be3000 
+                210 n1 recv 10000001d 
+                210 n3 recv 100000013 
+        211 n0 send 100000003 
+                211 n1 recv 400c71000 
+                211 n3 recv 400be1000 
+                        211 n0(1 0) go thru 200c64000 
+                212 n0 recv 100000004 
+                212 n1 recv 400c72000 
+                212 n3 recv 400be2000 
+        212 n0 send 200d11000 
+*** send (src: 0 dst: 1 vch: 1 len: 2) *** 
+        213 n3 send 10000000c 
+                213 n0 recv 400be1000 
+                213 n1 recv 400c73000 
+                213 n3 recv 200be3000 
+                        213 n2(0 1) go thru 100000018 
+                        213 n3(0 0) go thru 30000000d 
+                        213 n0(1 1) go thru 100000013 
+                        214 n0(1 1) go thru 200cd1000 
+                        214 n2(0 1) go thru 400ca1000 
+                214 n0 recv 200be2000 
+                214 n1 recv 200c74000 
+        214 n3 send 400d21000 
+        215 n0 send 100000011 
+        215 n2 send 30000001b 
+        215 n3 send 400d22000 
+                215 n3 recv 10000000b 
+                        215 n2(0 1) go thru 200ca2000 
+*** send (src: 2 dst: 3 vch: 1 len: 2) *** 
+                        216 n1(3 0) go thru 100000004 
+                216 n1 recv 100000001 
+                216 n3 recv 200bd1000 
+        216 n0 send 200d51000 
+        216 n3 send 400d23000 
+*** send (src: 0 dst: 2 vch: 1 len: 2) *** 
+        217 n3 send 200d24000 
+                217 n0 recv 100000018 
+                217 n1 recv 400c61000 
+                        217 n1(3 0) go thru 400c71000 
+                        217 n3(3 0) go thru 10000000c 
+*** send (src: 3 dst: 1 vch: 0 len: 3) *** 
+                        218 n1(3 0) go thru 400c72000 
+                        218 n3(3 0) go thru 400d21000 
+                218 n0 recv 400ca1000 
+                218 n1 recv 400c62000 
+        219 n1 send 100000004 
+        219 n2 send 10000001b 
+                219 n0 recv 200ca2000 
+                219 n1 recv 400c63000 
+                        219 n2(1 1) go thru 30000001b 
+                        219 n1(3 0) go thru 200c73000 
+                        219 n3(3 0) go thru 400d22000 
+                        220 n3(3 0) go thru 400d23000 
+                220 n1 recv 200c64000 
+        220 n1 send 200d21000 
+        220 n2 send 200d81000 
+*** send (src: 2 dst: 0 vch: 0 len: 5) *** 
+        221 n3 send 10000000d 
+                221 n0 recv 100000004 
+                        221 n2(0 0) go thru 10000000c 
+                        221 n3(3 0) go thru 200d24000 
+                        222 n1(2 1) go thru 100000013 
+                        222 n0(1 0) go thru 100000003 
+                        222 n2(0 0) go thru 400d21000 
+                222 n0 recv 400c71000 
+                222 n1 recv 30000000d 
+        222 n3 send 400da1000 
+        223 n2 send 100000008 
+        223 n3 send 200da2000 
+                223 n0 recv 400c72000 
+                223 n3 recv 30000001b 
+                        223 n2(0 0) go thru 400d22000 
+                        223 n0(1 0) go thru 200d11000 
+                        223 n1(2 1) go thru 200cd1000 
+*** send (src: 3 dst: 0 vch: 0 len: 2) *** 
+                        224 n2(0 0) go thru 400d23000 
+                224 n0 recv 200c73000 
+        224 n2 send 400dd1000 
+        225 n2 send 400dd2000 
+                        225 n2(0 0) go thru 200d24000 
+                        225 n3(0 0) go thru 10000000d 
+                        225 n0(1 1) go thru 100000011 
+                        225 n2(1 1) go thru 10000001b 
+                        226 n1(2 0) go thru 100000003 
+                        226 n0(1 1) go thru 200d51000 
+                        226 n2(1 1) go thru 200d81000 
+                        226 n3(0 0) go thru 400da1000 
+                226 n0 recv 10000000c 
+                226 n3 recv 100000013 
+        226 n0 send 100000012 
+        226 n2 send 400dd3000 
+        227 n0 send 200d91000 
+        227 n2 send 200dd4000 
+        227 n3 send 10000000c 
+                227 n0 recv 400d21000 
+                227 n3 recv 200cd1000 
+                        227 n3(0 0) go thru 200da2000 
+                        227 n1(2 0) go thru 200d11000 
+                        227 n1(3 0) go thru 100000004 
+*** send (src: 0 dst: 3 vch: 1 len: 1) *** 
+*** send (src: 2 dst: 3 vch: 0 len: 2) *** 
+                        228 n1(3 0) go thru 200d21000 
+                228 n0 recv 400d22000 
+        228 n3 send 200e01000 
+*** send (src: 3 dst: 2 vch: 1 len: 2) *** 
+                229 n0 recv 400d23000 
+                229 n1 recv 10000000d 
+                229 n3 recv 10000001b 
+                        230 n0(2 1) go thru 100000012 
+                230 n0 recv 200d24000 
+                230 n1 recv 400da1000 
+                230 n3 recv 200d81000 
+        231 n0 send 300000013 
+        231 n3 send 10000001e 
+                231 n1 recv 200da2000 
+                        231 n0(2 1) go thru 200d91000 
+                        231 n3(3 0) go thru 10000000c 
+*** send (src: 0 dst: 1 vch: 0 len: 1) *** 
+                        232 n3(3 0) go thru 200e01000 
+                        232 n2(0 0) go thru 100000008 
+                232 n0 recv 100000004 
+                232 n3 recv 100000003 
+        232 n3 send 200e51000 
+                233 n0 recv 200d21000 
+                233 n1 recv 100000011 
+                233 n3 recv 200d11000 
+                        233 n2(0 0) go thru 400dd1000 
+                        234 n2(0 0) go thru 400dd2000 
+                234 n1 recv 200d51000 
+                234 n2 recv 100000012 
+        234 n0 send 300000001 
+*** send (src: 0 dst: 1 vch: 0 len: 1) *** 
+                235 n2 recv 200d91000 
+                        235 n2(0 0) go thru 400dd3000 
+                        235 n3(3 1) go thru 10000001e 
+                        236 n3(3 1) go thru 200e51000 
+                        236 n2(0 0) go thru 200dd4000 
+                236 n0 recv 100000008 
+        236 n2 send 10000000b 
+        237 n2 send 200e41000 
+                237 n0 recv 400dd1000 
+                        237 n0(1 1) go thru 300000013 
+*** send (src: 2 dst: 0 vch: 0 len: 4) *** 
+                238 n0 recv 400dd2000 
+        239 n0 send 300000001 
+                239 n0 recv 400dd3000 
+                239 n2 recv 10000001e 
+                        239 n0(1 0) go thru 300000001 
+*** send (src: 0 dst: 3 vch: 0 len: 4) *** 
+                        240 n2(1 0) go thru 10000000b 
+                240 n0 recv 200dd4000 
+                240 n2 recv 200e51000 
+        241 n2 send 100000008 
+                        241 n2(1 0) go thru 200e41000 
+                        241 n1(2 1) go thru 300000013 
+                        242 n2(0 0) go thru 10000000c 
+        242 n2 send 400ee1000 
+        243 n2 send 400ee2000 
+                243 n1 recv 300000001 
+                        243 n2(0 0) go thru 200e01000 
+                244 n3 recv 10000000b 
+        244 n2 send 200ee3000 
+*** send (src: 2 dst: 3 vch: 1 len: 5) *** 
+        245 n0 send 100000003 
+                245 n3 recv 200e41000 
+                        245 n0(1 0) go thru 300000001 
+                246 n0 recv 10000000c 
+        246 n0 send 400f01000 
+        247 n0 send 400f02000 
+        247 n2 send 10000001b 
+                247 n0 recv 200e01000 
+                247 n3 recv 300000013 
+        248 n0 send 200f03000 
+        248 n2 send 400f51000 
+        249 n2 send 400f52000 
+                249 n1 recv 300000001 
+                        249 n2(0 0) go thru 100000008 
+                        250 n2(0 0) go thru 400ee1000 
+        250 n2 send 400f53000 
+        251 n2 send 200f54000 
+                        251 n2(0 0) go thru 400ee2000 
+                        251 n0(1 0) go thru 100000003 
+*** send (src: 2 dst: 1 vch: 1 len: 1) *** 
+                        252 n0(1 0) go thru 400f01000 
+                        252 n2(0 0) go thru 200ee3000 
+                253 n0 recv 100000008 
+                        253 n0(1 0) go thru 400f02000 
+                        254 n0(1 0) go thru 200f03000 
+                        254 n2(1 1) go thru 10000001b 
+                254 n0 recv 400ee1000 
+                255 n0 recv 400ee2000 
+                        255 n2(1 1) go thru 400f51000 
+                        255 n1(2 0) go thru 100000003 
+                        256 n1(2 0) go thru 400f01000 
+                        256 n2(1 1) go thru 400f52000 
+                256 n0 recv 200ee3000 
+                        257 n2(1 1) go thru 400f53000 
+                        257 n1(2 0) go thru 400f02000 
+                        258 n1(2 0) go thru 200f03000 
+                        258 n2(1 1) go thru 200f54000 
+                258 n3 recv 10000001b 
+        258 n2 send 300000019 
+                259 n3 recv 400f51000 
+                260 n3 recv 400f52000 
+                261 n3 recv 400f53000 
+                262 n3 recv 200f54000 
+                        264 n2(1 1) go thru 300000019 
+                264 n3 recv 100000003 
+                265 n3 recv 400f01000 
+                266 n3 recv 400f02000 
+                267 n3 recv 200f03000 
+                        268 n3(0 1) go thru 300000019 
+                272 n1 recv 300000019 
+
+
+*** statistics (        472) *** 
+n0_sent         100 	 n0_recv         114 
+n1_sent          93 	 n1_recv          90 
+n2_sent          95 	 n2_recv          81 
+n3_sent         105 	 n3_recv         108 
+total_sent         393 	 total_recv         393 
+
+
+noc_test.v:126: $finish called at 236250 (10ps)

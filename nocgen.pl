@@ -7,7 +7,7 @@
 #*******************************************************************
 # Array size
 #*******************************************************************
-$array_size	= 4;
+$array_size	= 2;
 #$array_size	= 16;
 
 #*******************************************************************
@@ -155,41 +155,41 @@ if ( @ARGV > 0 && $ARGV[0] eq "clean" ) {
 #
 # Parameter file
 #
-system("NOCGEN/define_gen.pl $data_width $array_size $switch_num $port_num $vch_num $buf_size $packet_len > $define_h");
+system("../NOCGEN/define_gen.pl $data_width $array_size $switch_num $port_num $vch_num $buf_size $packet_len > $define_h");
 
 #
 # NoC
 #
-system("NOCGEN/noc_test_gen.pl $data_width $array_size $vch_num $topology_type $traffic_ptn $packet_len $packet_num > $noc_test_v");
-system("NOCGEN/noc_gen.pl $array_size $topology_type > $noc_v");
+system("../NOCGEN/noc_test_gen.pl $data_width $array_size $vch_num $topology_type $traffic_ptn $packet_len $packet_num > $noc_test_v");
+system("../NOCGEN/noc_gen.pl $array_size $topology_type > $noc_v");
 
 #
 # Router
 #
-system("NOCGEN/router_gen.pl  $port_num $vch_num               > $router_v");
-system("NOCGEN/inputc_gen.pl  $port_num $vch_num $routing_type > $inputc_v");
-system("NOCGEN/vc_gen.pl      $port_num                        > $vc_v");
-system("NOCGEN/outputc_gen.pl $vch_num                         > $outputc_v");
-system("NOCGEN/rtcomp_gen.pl  $routing_type                    > $rtcomp_v");
-system("NOCGEN/vcmux_gen.pl   $vch_num                         > $vcmux_v");
+system("../NOCGEN/router_gen.pl  $port_num $vch_num               > $router_v");
+system("../NOCGEN/inputc_gen.pl  $port_num $vch_num $routing_type > $inputc_v");
+system("../NOCGEN/vc_gen.pl      $port_num                        > $vc_v");
+system("../NOCGEN/outputc_gen.pl $vch_num                         > $outputc_v");
+system("../NOCGEN/rtcomp_gen.pl  $routing_type                    > $rtcomp_v");
+system("../NOCGEN/vcmux_gen.pl   $vch_num                         > $vcmux_v");
 
 #
 # Buffer
 #
-system("NOCGEN/fifo_gen.pl > $fifo_v");
+system("../NOCGEN/fifo_gen.pl > $fifo_v");
 
 #
 # Crossbar switch
 #
-system("NOCGEN/cb_gen.pl      $port_num $port_num     > $cb_v");
-system("NOCGEN/muxcont_gen.pl $port_num               > $muxcont_v");
-system("NOCGEN/mux_gen.pl     $port_num               > $mux_v");
-system("NOCGEN/arb_gen.pl     $port_num $arbiter_type > $arb_v");
+system("../NOCGEN/cb_gen.pl      $port_num $port_num     > $cb_v");
+system("../NOCGEN/muxcont_gen.pl $port_num               > $muxcont_v");
+system("../NOCGEN/mux_gen.pl     $port_num               > $mux_v");
+system("../NOCGEN/arb_gen.pl     $port_num $arbiter_type > $arb_v");
 
 #
 # Power estimation model
 #
-system("NOCGEN/power_gen.pl $port_num $data_width > $power_v");
+system("../NOCGEN/power_gen.pl $port_num $data_width > $power_v");
 
 printf("done. \n");
 
